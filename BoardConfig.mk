@@ -47,5 +47,8 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 # Twrp
 -include device/twrp/tissot/twrp.mk
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/tissot/BoardConfigVendor.mk
