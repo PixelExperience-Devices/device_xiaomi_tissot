@@ -44,5 +44,8 @@ VENDOR_SECURITY_PATCH := 2019-01-05
 # Sepolicy
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Twrp
+-include device/twrp/tissot/twrp.mk
+
 # Inherit from the proprietary version
 -include vendor/xiaomi/tissot/BoardConfigVendor.mk
