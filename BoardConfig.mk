@@ -40,5 +40,12 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2020-05-05
 
+# Treble
+BOARD_VENDORIMAGE_PARTITION_SIZE := 629145600
+BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
+TARGET_COPY_OUT_VENDOR := vendor
+BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+
 # Inherit the proprietary files
 include vendor/xiaomi/tissot/BoardConfigVendor.mk
