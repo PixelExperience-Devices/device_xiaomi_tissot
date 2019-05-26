@@ -46,3 +46,8 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/tissot/BoardConfigVendor.mk
+
+# TWRP Support
+ifeq ($(BUILD_TWRP),true)
+include $(DEVICE_PATH)/twrp.mk
+endif
