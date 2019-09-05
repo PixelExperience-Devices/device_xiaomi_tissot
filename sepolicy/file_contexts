@@ -10,6 +10,9 @@
 /dev/block/platform/soc/7824900.sdhci/by-name/sbl1             u:object_r:custom_ab_block_device:s0
 /dev/block/platform/soc/7824900.sdhci/by-name/tz             u:object_r:custom_ab_block_device:s0
 
+# Rootfs file
+/firmware(/.*)?                               u:object_r:firmware_file:s0
+
 # Shell Script
 /(vendor|system/vendor)/bin/init\.goodix\.sh	u:object_r:init_fingerprint_exec:s0
  
