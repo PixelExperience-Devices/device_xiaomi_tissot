@@ -6,12 +6,12 @@
    "branch": "ten"
  },
  {
-   "remote": "pixel-devices-bitbucket",
+   "remote": "pixel-devices-blobs",
    "repository": "vendor_xiaomi_tissot",
    "target_path": "vendor/xiaomi/tissot",
    "branch": "ten"
  },
- { "remote": "pixel-devices-bitbucket", 
+ { "remote": "pixel-devices-blobs", 
    "repository": "vendor_xiaomi_msm8953-common", 
    "target_path": "vendor/xiaomi/msm8953-common", 
    "branch": "ten"
