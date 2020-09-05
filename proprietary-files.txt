@@ -360,9 +360,9 @@ vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
 vendor/lib64/hw/fingerprint.default.so
 
-# QC RIL - from LA.UM.8.6.2.r1-06600-89xx.0
-vendor/bin/hw/qcrild|da6f617f9e4645e7147cf7d41ad924e37056db97
+# QC RIL - from LA.UM.8.6.2.r1-08400-89xx.0
+vendor/bin/hw/qcrild|e6388657a78502c6211ff7dd54d1edbc7e97f148
 vendor/etc/init/qcrild.rc|f9c32f5e7a8e7f4a0df1dcce174de169b8d7c060
-vendor/lib64/libqcrilFramework.so|d0d78f822220ee64df0c277bf3470d13e9561c65
-vendor/lib64/libril-qc-hal-qmi.so|c729644ed0b8428d82588f2000ff3b42af165f3b
+vendor/lib64/libqcrilFramework.so|7d51b9b1d28c3b09aa8b76251c5831b8275dcc6d
+vendor/lib64/libril-qc-hal-qmi.so|4b93df3dd320dc6100e3199cd26f21704ca9c2bb
 vendor/lib64/qcrild_librilutils.so|22ae52ea7750c9011e3880852d800d94d54b030e
