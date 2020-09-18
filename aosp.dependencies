@@ -6,12 +6,12 @@
    "branch": "ten"
  },
  {
-   "remote": "pixel-devices-bitbucket",
+   "remote": "pixel-devices-blobs",
    "repository": "vendor_xiaomi_tissot",
    "target_path": "vendor/xiaomi/tissot",
    "branch": "ten"
  },
- { "remote": "pixel-devices-bitbucket", 
+ { "remote": "pixel-devices-blobs", 
    "repository": "vendor_xiaomi_msm8953-common", 
    "target_path": "vendor/xiaomi/msm8953-common", 
    "branch": "ten"
@@ -21,10 +21,5 @@
    "repository": "PixelExperience-Devices/kernel_xiaomi_tissot",
    "target_path": "kernel/xiaomi/msm8953",
    "branch": "ten"
-  },
-  {
-   "repository": "kdrag0n/proton-clang",
-   "target_path": "prebuilts/clang/host/linux-x86/clang-proton",
-   "branch": "master"
   }
 ]
