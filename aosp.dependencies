@@ -1,0 +1,25 @@
+[
+ {
+   "remote": "github",
+   "repository": "PixelExperience-Devices/device_xiaomi_msm8953-common",
+   "target_path": "device/xiaomi/msm8953-common",
+   "branch": "eleven"
+ },
+ {
+   "remote": "pixel-devices-blobs",
+   "repository": "vendor_xiaomi_tissot",
+   "target_path": "vendor/xiaomi/tissot",
+   "branch": "eleven"
+ },
+ { "remote": "pixel-devices-blobs", 
+   "repository": "vendor_xiaomi_msm8953-common", 
+   "target_path": "vendor/xiaomi/msm8953-common", 
+   "branch": "eleven"
+ },
+ {
+   "remote": "github",
+   "repository": "PixelExperience-Devices/kernel_xiaomi_tissot",
+   "target_path": "kernel/xiaomi/msm8953",
+   "branch": "eleven"
+  }
+]
