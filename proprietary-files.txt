@@ -357,10 +357,9 @@ vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so|feee131f714ed9
 vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so|c9d0251df63d8e34b6d70a59ad7b774c9f640fa1
 vendor/lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.default.so
 
-# QC RIL - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
-vendor/bin/hw/qcrild|c0db5589a45874c31c0bb7e8a7151511505c1e04
+# QC RIL - from nokia
+vendor/bin/hw/qcrild|3eea6728924507e6200a2a58c827bf1235eba28f
 vendor/etc/init/qcrild.rc|f9c32f5e7a8e7f4a0df1dcce174de169b8d7c060
-vendor/lib64/libqcrilFramework.so|3d8f25d13533f6fa45a36b23feb250291b663370
-vendor/lib64/libril-qc-hal-qmi.so|bf1a176d3890eaba94a115a311f98efe1010aeed
-vendor/lib64/qcrild_librilutils.so|c23470619690a34f7442fb6b26345de5dc4de880
-
+vendor/lib64/libqcrilFramework.so|da3c0216ddad60f48b1fc90b31a6d6d1114e95be
+vendor/lib64/libril-qc-hal-qmi.so|0c489fdafb9ae47de463d158d8327b6467db7900
+vendor/lib64/qcrild_librilutils.so|69354ed8d4f5b18dc890e292bcbfec01fa37edf7
