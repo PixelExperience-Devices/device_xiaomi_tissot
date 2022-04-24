@@ -18,8 +18,8 @@
  },
  {
    "remote": "github",
-   "repository": "PixelExperience-Devices/kernel_xiaomi_tissot",
+   "repository": "AospExtended-Devices/kernel_xiaomi_msm8953",
    "target_path": "kernel/xiaomi/msm8953",
-   "branch": "twelve"
+   "branch": "12.x"
   }
 ]
